@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#ffffff">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enrolment Information"
+        android:textColor="#b10303"
+        android:id="@+id/enrolmentTitle"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gift Cetificates"
+        android:textColor="#b10303"
+        android:id="@+id/giftTitle"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/enrolText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Payment Information"
+        android:textColor="#b10303"
+        android:id="@+id/paymentTitle"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/giftText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        android:textColor="#b10303"
+        android:text="Important Information"
+        android:id="@+id/informationTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView"
+        android:layout_below="@+id/informationTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Enrol Early through our NEW online payment system!"
+        android:id="@+id/enrolText"
+        android:layout_below="@+id/enrolmentTitle"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Our courses will only run if the minimum number is met.  Please direct Lifelong Learning enquiries to:"
+        android:id="@+id/enrolText2"
+        android:layout_below="@+id/enrolText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="15dp"
+                android:id="@+id/stranEShop"
+                android:src="@drawable/straneshop"
+                android:layout_above="@+id/refereshmentsTitle"
+                android:layout_alignLeft="@+id/returnButton"
+                android:layout_alignStart="@+id/returnButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Are you looking for a gift for a friend or family member?  Birthday, Chirstmas, Easter or any specail occasion, why not consider a gift certificate for one of our Lifelong Learning courses?  Gift certificates are not redeemable for cash and are issued for the current programme."
+        android:id="@+id/giftText"
+        android:layout_below="@+id/giftTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Online: You are now able to booke courses through our online payment system.  For more information please visit our web page: www.stran.ac.uk"
+        android:id="@+id/payInfoText"
+        android:layout_below="@+id/paymentTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Refreshments"
+        android:textColor="#b10303"
+        android:id="@+id/refereshmentsTitle"
+        android:layout_below="@+id/payInfoText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Visitors are welcome to enjoy refreshments available at CHATZ restaurant or Betty&apos;s Coffee shop both of which are open duing term time."
+                android:id="@+id/refreshmentText"
+                android:layout_below="@+id/refereshmentsTitle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Refunds"
+                android:textColor="#b10303"
+                android:id="@+id/refundsTitle"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/refreshmentText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="We regret that fees cannot be refunded except when a course does not run or if your application is rejected because the course is full.  The University College is unable to refund fees when, for whatever reason, the participant fails to attend."
+                android:id="@+id/refundsText"
+                android:layout_below="@+id/refundsTitle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Social Media"
+                android:textColor="#b10303"
+                android:id="@+id/socialMediaTitle"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/refundsText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="To keep updated with news and events, please follow Stranmillis University College on"
+                android:id="@+id/socialMediaText"
+                android:layout_below="@+id/socialMediaTitle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:id="@+id/linkedIn"
+                android:src="@drawable/linkedin"
+                android:layout_below="@+id/socialMediaText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Website"
+                android:textColor="#b10303"
+                android:id="@+id/websiteTitle"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/linkedIn"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="For further information "
+                android:id="@+id/websiteText"
+                android:layout_below="@+id/websiteTitle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:id="@+id/lifelongLearning"
+                android:src="@drawable/greenlll"
+                android:layout_alignTop="@+id/websiteText"
+                android:layout_toRightOf="@+id/websiteText"
+                android:layout_toEndOf="@+id/websiteText" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Return"
+                android:id="@+id/returnButton"
+                android:onClick="returnClick"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="850dp" />
+
+        </RelativeLayout>
+</ScrollView>
